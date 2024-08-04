@@ -1,0 +1,7 @@
+#!/bin/bash
+
+exec apt-get \
+	--yes \
+	--trivial-only \
+	purge \
+	python3-distutils
