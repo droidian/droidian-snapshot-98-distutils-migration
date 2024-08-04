@@ -1,0 +1,20 @@
+Source: droidian-snapshot-98-distutils-migration
+Maintainer: Eugenio Paolantonio (g7) <eugenio@droidian.org>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 13)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/droidian/droidian-snapshot-98-distutils-migration
+Vcs-Git: https://github.com/droidian/droidian-snapshot-98-distutils-migration.git
+
+Package: python3-distutils
+Architecture: all
+Pre-Depends: runonce
+Depends: python3-pkg-resources,
+         python3-setuptools
+Description: distutils package for Python 3.x - deprecated
+ Distutils package for Python 3.x.  This package contains the distutils module
+ from the Python standard library.
+ .
+ This is a deprecated package, that will be removed during
+ the Droidian 97.1 -> 98 upgrade.
